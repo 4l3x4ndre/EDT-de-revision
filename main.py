@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 
-jours_a_remonter = [3, 5, 8, 13, 21]
+jours_a_remonter = [0, 3, 5, 8, 13, 21]
 jours_noms = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 jours_noms_FR = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche']
 
