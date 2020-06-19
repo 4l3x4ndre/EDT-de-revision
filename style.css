@@ -1,0 +1,57 @@
+div {
+    text-align: center;
+    font-family: "DejaVu Sans Mono", monospace;
+    font-weight: 900;
+    color: whitesmoke;
+    font-size: 1.25em;
+    z-index: 1;
+    padding-bottom: 20px;
+}
+
+#div1 {
+    width: 100vw;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);}
+
+#div1 div {
+    width: -webkit-fit-content;
+    height: -webkit-fit-content;
+    width: -moz-fit-content;
+    height: -moz-fit-content;
+    margin: 0 auto;
+    /* line-height: 3em;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.137); */
+}
+#h1 {
+    width: 100vw;
+    margin: 0;
+    position: absolute;
+}
+ #h1 div {
+    top:0;
+    margin: 0 auto;
+    font-size: 2em;
+
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.image {
+    background-color: black;
+    background-image: url('https://source.unsplash.com/1920x1080/?sky,stars,night');
+    background-size: 100vw 100vh;
+    filter: grayscale(100%) blur(2px);
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
