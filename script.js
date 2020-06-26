@@ -32,7 +32,7 @@ for (let i = 0; i < jours_a_remonter.length; i++) {
         matieres_txt += matiere + " "
     }
 
-    afficherSurLaPage(nom_du_jour+ " " + jour_a_reviser.getDate().toString() + "/" + (parseInt(jour_a_reviser.getMonth())+1), 'div', 'div1')
+    afficherSurLaPage(nom_du_jour+ " " + jour_a_reviser.getDate().toString() + "/" + (parseInt(jour_a_reviser.getMonth())+1) + "/" + parseInt(jour_a_reviser.getFullYear()), 'div', 'div1')
     afficherSurLaPage(matieres_txt, 'div', 'div1')
     afficherSurLaPage("", 'div', 'div1')
 }
